@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^login$ index.php [L]
+RewriteRule ^logout$ logout.php [L]
+RewriteRule ^proses$ proses_login.php [L]
+RewriteRule ^dashboard$ home.php?page=dashboard [L]
+RewriteRule ^administrator$ home.php?page=mod_admin [L]
+RewriteRule ^anggota$ home.php?page=mod_anggota [L]
+RewriteRule ^ska$ home.php?page=mod_ska [L]
+RewriteRule ^iptb$ home.php?page=mod_iptb [L]
+RewriteRule ^acpe$ home.php?page=mod_acpe [L]
+RewriteRule ^download$ home.php?page=mod_download [L]
+
+Options All -Indexes
